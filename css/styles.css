@@ -56,6 +56,7 @@ body {
 }
 
 /*  ============ END COMPONENTS  ============ */
+
 /*  ============ HEADER  ============ */
 .navigation-list-link {
   font-style: normal;
@@ -165,3 +166,42 @@ body {
   color: var(--footer-link-color);
 }
 /* ============ END FOOTER  ============*/
+
+/* ====================== PORTFOLIO PAGE  ========================*/
+/* ============ FILTERS  ============*/
+
+.filters-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--titles-color);
+}
+
+.filters-btn:hover,
+.filters-btn:focus {
+  color: var(--light-text-color);
+}
+/* ============ END FILTERS  ============*/
+
+/* ============ PROJECTS  ============*/
+.projects-header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.projects-subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--description-color);
+}
+/* ============ END PROJECTS  ============*/
